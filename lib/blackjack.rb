@@ -48,6 +48,7 @@ def hit?(card_total)
   get_user_input
   if input == "s"
     card_total.to_i
+    break
   elsif input == "h"
     new_card = deal_card
     card_total += new_card
