@@ -72,5 +72,6 @@ def runner
     hit?
     display_card_total
   
+  
 end
     
